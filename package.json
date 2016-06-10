@@ -1,0 +1,20 @@
+{
+  "name": "chumpiler",
+  "version": "1.0.0",
+  "description": "Compile Chumby Widgets",
+  "main": "lib/main.js",
+  "activationCommands": {
+    "atom-workspace": "chumby:ping"
+  },
+  "author": "",
+  "repository": "https://github.com/codeponies/chumpiler",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "image-min": "^0.3.2",
+    "node-sshclient-promises": "^0.3.0",
+    "xml2js": "^0.4.16"
+  }
+}
